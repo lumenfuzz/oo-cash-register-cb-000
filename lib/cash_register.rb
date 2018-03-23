@@ -32,5 +32,6 @@ class CashRegister
     @latest_item[1].times do
       @items.pop
       @total -= @latest_item[0]
+    end
   end
 end
